@@ -15,7 +15,7 @@ Para utilizá-lo, é necessário ter JDK 17 ou superior instalado. Caso não pos
 
 ### 2° passo: importe o projeto na IDE.
 
-Para importar o projeto na IDE, basta seguir o tutorial disponível na documentação do Vaadin [vaadin.com/docs](https://vaadin.com/docs/latest/guide/step-by-step/importing). Nela está dispoível a documentação de importação em cada IDE.
+Para importar o projeto na IDE, basta seguir o tutorial disponível na documentação do Vaadin [vaadin.com/docs](https://vaadin.com/docs/latest/guide/step-by-step/importing). Nela está disponível a documentação de importação em cada IDE.
 
 Segue o exemplo de importação no Eclipse:
 1. Dentro do eclipse, seleciona a opção **File > Import...**
@@ -30,9 +30,9 @@ Existem duas formas de executar o projeto:
 
 A primeira opção é: por ele ser um projeto maven, é possível executá-lo por linha de comando. Basta entrar no diretório do projeto e executar <code>mvnw</code> (Windows) ou <code>./mvnw</code> (macOS ou Linux). Em seguida, abra [localhost:8080](http://localhost:8080/) em seu navegador. 
 
-Outra opção é executá-lo pela IDE, logo após realizar o **2° passso**. Para isso, execute os seguintes passo:
+Outra opção é executá-lo pela IDE, logo após realizar o **2° passso**. Para isso, execute os seguintes passos:
 1. Em sua IDE, encontre o arquivo <code>Application.java</code>, localizado em <code>src/main/java/org/vaadin/example</code> 
-2. Clice com o botão direito do mouse e selecione **Ruan as > 1 Java Application**
+2. Clique com o botão direito do mouse e selecione **Ruan as > 1 Java Application**
 3. Em seguida, abra [localhost:8080](http://localhost:8080/) em seu navegador
 
 <br> 
@@ -43,7 +43,7 @@ Com a aplicação desse repositório, você obterá a seguinte interface:
 
 ![](imagens/tela.png)
 
-Porém, é possível construir diversos outros componentes utilizando a documentação dispoível em [vaadin.com/docs](https://vaadin.com/docs/latest/#components).
+Porém, é possível construir diversos outros componentes utilizando a documentação disponível em [vaadin.com/docs](https://vaadin.com/docs/latest/#components).
 
 
 
