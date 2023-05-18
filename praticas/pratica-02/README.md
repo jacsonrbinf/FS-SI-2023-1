@@ -1,45 +1,46 @@
 # Pratica-02
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+Crie uma classe Edificio para representar todos os seus apartamentos e seus
+respectivos moradores, seguindo os itens a seguir:
+1. A lista de “Apartamentos” (atributo da classe Edificio) deverá ser uma lista da
+classe “Apartamento”.
+2. Na classe “Edificio”, implemente um método adicionarApartamento() para adicionar
+os apartamentos dentro da lista criada.
+3. Na classe “Edificio”, implemente um método mostrarApartamentos(), que possa
+imprimir a lista de todos os apartamentos do Edificio.
 
-## Running the application
+## Execução do projeto
 
-The project is a standard Maven project. To run it from the command line,
-type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
-http://localhost:8080 in your browser.
+O projeto é um projeto Maven padrão. Para executá-lo a partir da linha de comando,
+digite `mvnw` (Windows) ou `./mvnw` (Mac e Linux) e abra
+http://localhost:8080 em seu navegador.
 
-You can also import the project to your IDE of choice as you would with any
-Maven project. Read more on [how to import Vaadin projects to different IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, IntelliJ IDEA, NetBeans, and VS Code).
+Você também pode importar o projeto para o IDE de sua escolha como faria com qualquer
+Projeto Maven. Leia mais sobre [como importar projetos Vaadin para diferentes IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, IntelliJ IDEA, NetBeans e VS Code).
 
-## Deploying to Production
+## Implantando para produção
 
-To create a production build, call `mvnw clean package -Pproduction` (Windows),
-or `./mvnw clean package -Pproduction` (Mac & Linux).
-This will build a JAR file with all the dependencies and front-end resources,
-ready to be deployed. The file can be found in the `target` folder after the build completes.
+Para criar uma compilação de produção, execute `mvnw clean package -Pproduction` (Windows),
+ou `./mvnw clean package -Pproduction` (Mac e Linux).
+Isso criará um arquivo JAR com todas as dependências e recursos front-end,
+pronto para ser implantado. O arquivo pode ser encontrado na pasta `target` após a conclusão da compilação.
 
-Once the JAR file is built, you can run it using
+Depois que o arquivo JAR é criado, você pode executá-lo usando
 `java -jar target/pratica-02-1.0-SNAPSHOT.jar`
 
-## Project structure
+## Estrutura do projeto
 
-- `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
-  side/top bar and the main menu). This setup uses
+- `MainLayout.java` em `src/main/java` contém a configuração de navegação (ou seja, a
+  barra lateral/superior e menu principal). Esta configuração usa
   [App Layout](https://vaadin.com/docs/components/app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `frontend/` contains the client-side JavaScript views of your application.
-- `themes` folder in `frontend/` contains the custom CSS styles.
+- O pacote `views` em `src/main/java` contém as visualizações Java do lado do servidor de sua aplicação.
+- A pasta `views` em `frontend/` contém as visualizações JavaScript do lado do cliente do seu aplicativo.
+- A pasta `themes` em `frontend/` contém os estilos CSS personalizados.
 
-## Useful links
+## Referências
 
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorial at [vaadin.com/docs/latest/tutorial/overview](https://vaadin.com/docs/latest/tutorial/overview).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/docs/latest/components](https://vaadin.com/docs/latest/components).
-- View use case applications that demonstrate Vaadin capabilities at [vaadin.com/examples-and-demos](https://vaadin.com/examples-and-demos).
-- Build any UI without custom CSS by discovering Vaadin's set of [CSS utility classes](https://vaadin.com/docs/styling/lumo/utility-classes). 
-- Find a collection of solutions to common use cases at [cookbook.vaadin.com](https://cookbook.vaadin.com/).
-- Find add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin).
+- [Documentação do vaadin](https://vaadin.com/docs/latest/)
+- [Tutorial do vaadin](https://vaadin.com/docs/latest/tutorial/overview)
+- https://github.com/mourarezendecas/devfullstack
+
+
