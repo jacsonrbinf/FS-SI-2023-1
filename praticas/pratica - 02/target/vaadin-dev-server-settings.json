@@ -1,0 +1,18 @@
+{
+  "frontendFolder": "C:/Users/lucas.souza/Desktop/pratica-02/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/lucas.souza/Desktop/pratica-02/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/lucas.souza/Desktop/pratica-02/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/lucas.souza/Desktop/pratica-02/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/lucas.souza/Desktop/pratica-02/src/main/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/lucas.souza/Desktop/pratica-02/frontend/generated/jar-resources",
+  "generatedFlowImportsFolder": "target/frontend",
+  "themeName": "pratica-02",
+  "clientServiceWorkerSource": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

@@ -1,0 +1,17 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "C:\\Users\\lucas.souza\\Desktop\\pratica-02",
+  "node.version": "v18.14.1",
+  "node.download.root": "https://nodejs.org/dist/",
+  "generatedFolder": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\target\\frontend",
+  "frontendFolder": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\frontend",
+  "connect.javaSourceFolder": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\src\\main\\java",
+  "javaResourceFolder": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\src\\main\\resources",
+  "connect.applicationProperties": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "C:\\Users\\lucas.souza\\Desktop\\pratica-02\\frontend\\generated",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "build.folder": "target"
+}
