@@ -6,7 +6,7 @@ import br.ufg.inf.application.components.appnav.AppNavItem;
 import br.ufg.inf.application.views.about.AboutView;
 import br.ufg.inf.application.views.apartamento.ApartamentoListView;
 import br.ufg.inf.application.views.apartamento.ApartamentoView;
-
+import br.ufg.inf.application.views.edificio.EdificioListView;
 import br.ufg.inf.application.views.morador.MoradorListView;
 import br.ufg.inf.application.views.morador.MoradorView;
 import com.vaadin.flow.component.applayout.AppLayout;
@@ -17,12 +17,14 @@ import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Header;
 import com.vaadin.flow.component.orderedlayout.Scroller;
 import com.vaadin.flow.router.PageTitle;
+import com.vaadin.flow.router.Route;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 import org.vaadin.lineawesome.LineAwesomeIcon;
 
 /**
  * The main view is a top-level placeholder for other views.
  */
+@Route(value = "")
 public class MainLayout extends AppLayout {
 
     private H2 viewTitle;
@@ -59,7 +61,7 @@ public class MainLayout extends AppLayout {
         AppNav nav = new AppNav();
         nav.addItem(new AppNavItem("Morador ", MoradorListView.class, LineAwesomeIcon.USER.create()));
         nav.addItem(new AppNavItem("Apartamento ", ApartamentoListView.class, LineAwesomeIcon.USER.create()));
-        nav.addItem(new AppNavItem("Condominio", MoradorListView.class, LineAwesomeIcon.USER.create()));
+        nav.addItem(new AppNavItem("Edificio", EdificioListView.class, LineAwesomeIcon.USER.create()));
         nav.addItem(new AppNavItem("About", AboutView.class, LineAwesomeIcon.FILE.create()));
 
         return nav;

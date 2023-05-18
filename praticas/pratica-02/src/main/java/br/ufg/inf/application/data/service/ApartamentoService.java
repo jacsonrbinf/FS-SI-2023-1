@@ -35,7 +35,7 @@ public class ApartamentoService {
         return apartamentoRepository.findAll();
     }
     
- public List<Morador> findAllMoradores() {
+    public List<Morador> findAllMoradores() {
     	
         return moradorRepository.findAll();
     }

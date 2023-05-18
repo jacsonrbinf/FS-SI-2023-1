@@ -2,15 +2,13 @@ package br.ufg.inf.application.data.entity;
 
 import java.util.ArrayList;
 
-public class Edificio {
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToOne;
+
+@Entity
+public class Edificio extends AbstractEntity{
 	private String nome;
 	private String endereco;
-	private ArrayList<Apartamento> apartamentos = new ArrayList<Apartamento>();
-	
-	public Edificio(String nome, String endereco) {
-		this.nome = nome;
-		this.endereco = endereco;
-	}
 
 	public String getNome() {
 		return nome;
@@ -27,10 +25,11 @@ public class Edificio {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+
 	
-	public void adicionarApartamento(Apartamento apartamento) {
-		apartamentos.add(apartamento);
-	}
+	
+	
+	
 	
 	
 }
