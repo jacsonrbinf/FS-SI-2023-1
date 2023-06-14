@@ -12,7 +12,9 @@ imprimir a lista de todos os apartamentos do Edificio.
 
 ## Projeto
 
+Esse projeto utiliza MariaDB para realizar a persistência de dados.
 
+Para que possa executá-lo, é necessário configurar o banco de dados no arquivo `application.properties`. 
 
 
 
